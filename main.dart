@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medical/Appoinment.dart';
-import 'package:medical/Appoinment3.dart';
-import 'package:medical/Appointment1.dart';
-import 'package:medical/Interview.dart';
-import 'package:medical/appoinment2.dart';
-
+import 'package:punjab/Interview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),debugShowCheckedModeBanner: false,
-      home: Medical()
+      home: const Home(),
     );
   }
 }
